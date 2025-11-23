@@ -1,0 +1,10 @@
+def generate_report(location, soil_type, rainfall, crop, irrigation, fertilizer, price):
+    print("===== FARMING REPORT =====")
+    print(f"📍 Location: {location}")
+    print(f"🧪 Soil Type: {soil_type}")
+    print(f"🌧 Rainfall: {rainfall} mm")
+    print(f"🌱 Recommended Crop: {crop}")
+    print(f"💧 Irrigation Advice: {irrigation}")
+    print(f"🧴 Fertilizer Plan: {fertilizer}")
+    print(f"💰 Current Market Price: {price}")
+    print("\n✨ Best of luck with your farming!\n")
